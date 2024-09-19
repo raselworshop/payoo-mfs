@@ -21,11 +21,4 @@ document.getElementById('btn-cash-out')
         }else{
             alert('Failed to cash out!! please try later')
         }
-    });
-//show add money form and hide the cash out form
-document.getElementById('show-add-money').addEventListener('click', function () {
-    // show the add money form 
-    document.getElementById('add-money-form').classList.remove('hidden');
-
-    // hide the cash out form 
-});
+    })
